@@ -1,6 +1,6 @@
 {
   "name": "poe-ninja-api-manager",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "description": "Access item data easily and update, save and load data from poe.ninja with NodeJS",
   "main": "index.js",
   "keywords": [
@@ -19,6 +19,9 @@
     "email": "tobiashoffmann7@gmail.com",
     "url": "http://klayver.de"
   },
+  "contributors": [
+    "ThirtythreeAs <thirtythreeas@gmail.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/klayveR/poe-ninja-api-manager.git"
