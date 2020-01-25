@@ -220,6 +220,7 @@ class NinjaAPI {
   * @param {string} [options.fallbackVariant=null] If a variant was specified but not found, try to find this instead. Useful for defaulting gems to the level 20 variant
   * @param {string} [options.relic=false] Set to `true` for the relic version of the item
   * @param {string} [options.baseType=null] Base type of the item. Is ignored if not specified
+  * @param {string} [options.mapTier=0] Map tier. Ignored if not specified.
   * @returns {Promise}
   * @fulfil {Array} - An array containing the matching item as an object. If you receive multiple objects, please open an issue.
   * @reject {Error} - The `error.message` contains information about why the promise was rejected
@@ -233,7 +234,8 @@ class NinjaAPI {
         fallbackVariant: null,
         relic: false,
         baseType: null,
-        variantSpecified: false
+        variantSpecified: false,
+        mapTier: 0
     };
 
     if(options.hasOwnProperty("variant")) {
