@@ -43,6 +43,10 @@ class NinjaAPI {
       {overview: "item", type: "Fossil"},
       {overview: "item", type: "Resonator"},
       {overview: "item", type: "Scarab"},
+      {overview: "item", type: "Oil"},
+      {overview: "item", type: "Watchstone"},
+      {overview: "item", type: "Incubator"},
+      {overview: "item", type: "Beast"},
     ];
   }
 
