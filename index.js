@@ -310,6 +310,11 @@ class NinjaAPI {
       matches = _.where(matches, {baseType: options.baseType});
     }
 
+    if(options.mapTier){
+      matches = _.where(itemArray, {name: name, mapTier: options.mapTier});
+    }
+    
+
     // If a variant was specified, filter for that exact variant or fallback variant
     // If no variant was specified, prefer the null variant, but return any variant if there's no null variant
     if(options.variantSpecified) {
