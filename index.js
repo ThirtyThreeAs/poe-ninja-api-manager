@@ -311,7 +311,7 @@ class NinjaAPI {
     }
 
     if(options.mapTier){
-      matches = _.where(itemArray, {name: name, mapTier: options.mapTier});
+      matches = _.where(matches, {name: name, mapTier: options.mapTier});
     }
     
 
