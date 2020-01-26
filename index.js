@@ -326,8 +326,6 @@ class NinjaAPI {
         var fallbackVariantMatches = _.where(matches, {variant: options.fallbackVariant});
         if(fallbackVariantMatches.length > 0) {
           matches = fallbackVariantMatches;
-        } else {
-          matches = variantMatches;
         }
       }
     } else {
